@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ht_messages__py",
+		"source" : "/home/user/high_tide_ws/build/ht_messages/ht_messages__py"
+	}
+}

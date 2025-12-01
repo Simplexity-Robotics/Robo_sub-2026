@@ -1,0 +1,226 @@
+[0.876s] Invoking command in '/home/user/high_tide_ws/build/ht_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/high_tide_ws/install/my_gyro_pkg:/home/user/high_tide_ws/install/ht_core:/home/user/install/my_gyro_pkg:/home/user/install/ht_core:/opt/ros/humble /usr/bin/cmake /home/user/high_tide_ws/src/ht_messages -DCMAKE_INSTALL_PREFIX=/home/user/high_tide_ws/install/ht_messages
+[1.038s] -- The C compiler identification is GNU 11.4.0
+[1.199s] -- The CXX compiler identification is GNU 11.4.0
+[1.220s] -- Detecting C compiler ABI info
+[1.417s] -- Detecting C compiler ABI info - done
+[1.457s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.458s] -- Detecting C compile features
+[1.459s] -- Detecting C compile features - done
+[1.470s] -- Detecting CXX compiler ABI info
+[1.692s] -- Detecting CXX compiler ABI info - done
+[1.721s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.722s] -- Detecting CXX compile features
+[1.724s] -- Detecting CXX compile features - done
+[1.734s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.346s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.748s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.764s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.798s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.996s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.151s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[3.212s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[4.461s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.165s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.076s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.149s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[6.154s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.241s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[6.241s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.241s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.241s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[6.308s] -- Found PythonExtra: .so  
+[6.486s] -- Configuring done
+[6.578s] -- Generating done
+[6.612s] -- Build files have been written to: /home/user/high_tide_ws/build/ht_messages
+[6.633s] Invoked command in '/home/user/high_tide_ws/build/ht_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/high_tide_ws/install/my_gyro_pkg:/home/user/high_tide_ws/install/ht_core:/home/user/install/my_gyro_pkg:/home/user/install/ht_core:/opt/ros/humble /usr/bin/cmake /home/user/high_tide_ws/src/ht_messages -DCMAKE_INSTALL_PREFIX=/home/user/high_tide_ws/install/ht_messages
+[6.639s] Invoking command in '/home/user/high_tide_ws/build/ht_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/high_tide_ws/install/my_gyro_pkg:/home/user/high_tide_ws/install/ht_core:/home/user/install/my_gyro_pkg:/home/user/install/ht_core:/opt/ros/humble /usr/bin/cmake --build /home/user/high_tide_ws/build/ht_messages -- -j4 -l4
+[6.736s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.779s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.816s] [  6%] Built target ament_cmake_python_copy_ht_messages
+[7.644s] running egg_info
+[7.648s] creating ht_messages.egg-info
+[7.649s] writing ht_messages.egg-info/PKG-INFO
+[7.650s] writing dependency_links to ht_messages.egg-info/dependency_links.txt
+[7.652s] writing top-level names to ht_messages.egg-info/top_level.txt
+[7.653s] writing manifest file 'ht_messages.egg-info/SOURCES.txt'
+[7.662s] reading manifest file 'ht_messages.egg-info/SOURCES.txt'
+[7.663s] writing manifest file 'ht_messages.egg-info/SOURCES.txt'
+[7.699s] [  6%] Built target ht_messages__cpp
+[7.731s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.791s] [ 12%] Built target ament_cmake_python_build_ht_messages_egg
+[7.793s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.818s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.837s] [ 19%] [32mBuilding C object CMakeFiles/ht_messages__rosidl_generator_c.dir/rosidl_generator_c/ht_messages/msg/detail/example__functions.c.o[0m
+[8.102s] [ 22%] [32m[1mLinking C shared library libht_messages__rosidl_generator_c.so[0m
+[8.425s] [ 22%] Built target ht_messages__rosidl_generator_c
+[8.492s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.761s] [ 29%] [32mBuilding CXX object CMakeFiles/ht_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ht_messages/msg/detail/example__type_support.cpp.o[0m
+[8.846s] [ 32%] [32mBuilding CXX object CMakeFiles/ht_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ht_messages/msg/example__type_support.cpp.o[0m
+[9.008s] [ 35%] [32mBuilding CXX object CMakeFiles/ht_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ht_messages/msg/detail/dds_fastrtps/example__type_support.cpp.o[0m
+[9.658s] [ 38%] [32mBuilding CXX object CMakeFiles/ht_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ht_messages/msg/detail/example__type_support_c.cpp.o[0m
+[10.194s] [ 41%] [32m[1mLinking CXX shared library libht_messages__rosidl_typesupport_cpp.so[0m
+[10.462s] [ 41%] Built target ht_messages__rosidl_typesupport_cpp
+[10.502s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.825s] [ 48%] [32m[1mLinking CXX shared library libht_messages__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.991s] [ 51%] [32m[1mLinking CXX shared library libht_messages__rosidl_typesupport_introspection_cpp.so[0m
+[11.268s] [ 51%] Built target ht_messages__rosidl_typesupport_introspection_cpp
+[11.290s] [ 51%] Built target ht_messages__rosidl_typesupport_fastrtps_cpp
+[11.310s] [ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[11.310s] [ 58%] [32m[1mLinking CXX shared library libht_messages__rosidl_typesupport_fastrtps_c.so[0m
+[11.547s] [ 58%] Built target ht_messages__rosidl_typesupport_fastrtps_c
+[11.599s] [ 61%] [32mBuilding C object CMakeFiles/ht_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ht_messages/msg/detail/example__type_support.c.o[0m
+[11.708s] [ 64%] [32m[1mLinking C shared library libht_messages__rosidl_typesupport_introspection_c.so[0m
+[11.800s] [ 64%] Built target ht_messages__rosidl_typesupport_introspection_c
+[12.045s] [ 67%] [32mBuilding CXX object CMakeFiles/ht_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/ht_messages/msg/example__type_support.cpp.o[0m
+[12.130s] [ 70%] [32m[1mLinking CXX shared library libht_messages__rosidl_typesupport_c.so[0m
+[12.234s] [ 70%] Built target ht_messages__rosidl_typesupport_c
+[12.285s] [ 70%] Built target ht_messages
+[12.336s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[13.239s] [ 74%] Built target ht_messages__py
+[13.288s] [ 77%] [32mBuilding C object CMakeFiles/ht_messages__rosidl_generator_py.dir/rosidl_generator_py/ht_messages/msg/_example_s.c.o[0m
+[13.606s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/ht_messages/libht_messages__rosidl_generator_py.so[0m
+[13.709s] [ 80%] Built target ht_messages__rosidl_generator_py
+[13.761s] [ 87%] [32mBuilding C object CMakeFiles/ht_messages__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ht_messages/_ht_messages_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[13.761s] [ 87%] [32mBuilding C object CMakeFiles/ht_messages__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ht_messages/_ht_messages_s.ep.rosidl_typesupport_c.c.o[0m
+[13.762s] [ 90%] [32mBuilding C object CMakeFiles/ht_messages__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ht_messages/_ht_messages_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.073s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/ht_messages/ht_messages_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[14.105s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/ht_messages/ht_messages_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[14.117s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ht_messages/ht_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[14.206s] [100%] Built target ht_messages__rosidl_typesupport_introspection_c__pyext
+[14.212s] [100%] Built target ht_messages__rosidl_typesupport_c__pyext
+[14.234s] [100%] Built target ht_messages__rosidl_typesupport_fastrtps_c__pyext
+[14.268s] Invoked command in '/home/user/high_tide_ws/build/ht_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/high_tide_ws/install/my_gyro_pkg:/home/user/high_tide_ws/install/ht_core:/home/user/install/my_gyro_pkg:/home/user/install/ht_core:/opt/ros/humble /usr/bin/cmake --build /home/user/high_tide_ws/build/ht_messages -- -j4 -l4
+[14.294s] Invoking command in '/home/user/high_tide_ws/build/ht_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/high_tide_ws/install/my_gyro_pkg:/home/user/high_tide_ws/install/ht_core:/home/user/install/my_gyro_pkg:/home/user/install/ht_core:/opt/ros/humble /usr/bin/cmake --install /home/user/high_tide_ws/build/ht_messages
+[14.316s] -- Install configuration: ""
+[14.316s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ament_index/resource_index/rosidl_interfaces/ht_messages
+[14.317s] -- Installing: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages
+[14.317s] -- Installing: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg
+[14.317s] -- Installing: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/rosidl_generator_c__visibility_control.h
+[14.318s] -- Installing: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail
+[14.318s] -- Installing: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__functions.h
+[14.318s] -- Installing: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__struct.h
+[14.318s] -- Installing: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__functions.c
+[14.319s] -- Installing: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__type_support.h
+[14.319s] -- Installing: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/example.h
+[14.320s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/environment/library_path.sh
+[14.320s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/environment/library_path.dsv
+[14.320s] -- Installing: /home/user/high_tide_ws/install/ht_messages/lib/libht_messages__rosidl_generator_c.so
+[14.322s] -- Set runtime path of "/home/user/high_tide_ws/install/ht_messages/lib/libht_messages__rosidl_generator_c.so" to ""
+[14.322s] -- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages
+[14.322s] -- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg
+[14.322s] -- Installing: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.324s] -- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail
+[14.324s] -- Installing: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__rosidl_typesupport_fastrtps_c.h
+[14.324s] -- Installing: /home/user/high_tide_ws/install/ht_messages/lib/libht_messages__rosidl_typesupport_fastrtps_c.so
+[14.325s] -- Set runtime path of "/home/user/high_tide_ws/install/ht_messages/lib/libht_messages__rosidl_typesupport_fastrtps_c.so" to ""
+[14.325s] -- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages
+[14.328s] -- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg
+[14.328s] -- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail
+[14.329s] -- Installing: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__rosidl_typesupport_introspection_c.h
+[14.329s] -- Installing: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__type_support.c
+[14.329s] -- Installing: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.330s] -- Installing: /home/user/high_tide_ws/install/ht_messages/lib/libht_messages__rosidl_typesupport_introspection_c.so
+[14.330s] -- Set runtime path of "/home/user/high_tide_ws/install/ht_messages/lib/libht_messages__rosidl_typesupport_introspection_c.so" to ""
+[14.331s] -- Installing: /home/user/high_tide_ws/install/ht_messages/lib/libht_messages__rosidl_typesupport_c.so
+[14.333s] -- Set runtime path of "/home/user/high_tide_ws/install/ht_messages/lib/libht_messages__rosidl_typesupport_c.so" to ""
+[14.338s] -- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages
+[14.339s] -- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg
+[14.339s] -- Installing: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/rosidl_generator_cpp__visibility_control.hpp
+[14.339s] -- Installing: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/example.hpp
+[14.339s] -- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail
+[14.340s] -- Installing: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__struct.hpp
+[14.340s] -- Installing: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__builder.hpp
+[14.340s] -- Installing: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__traits.hpp
+[14.340s] -- Installing: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__type_support.hpp
+[14.340s] -- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages
+[14.341s] -- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg
+[14.341s] -- Installing: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.341s] -- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail
+[14.341s] -- Installing: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__rosidl_typesupport_fastrtps_cpp.hpp
+[14.342s] -- Installing: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/dds_fastrtps
+[14.342s] -- Installing: /home/user/high_tide_ws/install/ht_messages/lib/libht_messages__rosidl_typesupport_fastrtps_cpp.so
+[14.342s] -- Set runtime path of "/home/user/high_tide_ws/install/ht_messages/lib/libht_messages__rosidl_typesupport_fastrtps_cpp.so" to ""
+[14.342s] -- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages
+[14.343s] -- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg
+[14.343s] -- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail
+[14.343s] -- Installing: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__type_support.cpp
+[14.343s] -- Installing: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__rosidl_typesupport_introspection_cpp.hpp
+[14.343s] -- Installing: /home/user/high_tide_ws/install/ht_messages/lib/libht_messages__rosidl_typesupport_introspection_cpp.so
+[14.343s] -- Set runtime path of "/home/user/high_tide_ws/install/ht_messages/lib/libht_messages__rosidl_typesupport_introspection_cpp.so" to ""
+[14.344s] -- Installing: /home/user/high_tide_ws/install/ht_messages/lib/libht_messages__rosidl_typesupport_cpp.so
+[14.344s] -- Set runtime path of "/home/user/high_tide_ws/install/ht_messages/lib/libht_messages__rosidl_typesupport_cpp.so" to ""
+[14.344s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/environment/pythonpath.sh
+[14.344s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/environment/pythonpath.dsv
+[14.344s] -- Installing: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages-0.0.0-py3.10.egg-info
+[14.344s] -- Installing: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages-0.0.0-py3.10.egg-info/PKG-INFO
+[14.345s] -- Installing: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages-0.0.0-py3.10.egg-info/dependency_links.txt
+[14.345s] -- Installing: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages-0.0.0-py3.10.egg-info/SOURCES.txt
+[14.345s] -- Installing: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages-0.0.0-py3.10.egg-info/top_level.txt
+[14.345s] -- Installing: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages
+[14.345s] -- Installing: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/msg
+[14.345s] -- Installing: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/msg/__init__.py
+[14.346s] -- Installing: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/msg/_example.py
+[14.346s] -- Installing: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/msg/_example_s.c
+[14.346s] -- Installing: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/libht_messages__rosidl_generator_py.so
+[14.346s] -- Installing: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/ht_messages_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[14.346s] -- Installing: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/_ht_messages_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.347s] -- Installing: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/_ht_messages_s.ep.rosidl_typesupport_c.c
+[14.347s] -- Installing: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/ht_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[14.347s] -- Installing: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/__init__.py
+[14.347s] -- Installing: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/_ht_messages_s.ep.rosidl_typesupport_introspection_c.c
+[14.347s] -- Installing: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/ht_messages_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[14.452s] Listing '/home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages'...
+[14.452s] Compiling '/home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/__init__.py'...
+[14.453s] Listing '/home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/msg'...
+[14.453s] Compiling '/home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/msg/__init__.py'...
+[14.453s] Compiling '/home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/msg/_example.py'...
+[14.471s] -- Installing: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/ht_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[14.471s] -- Set runtime path of "/home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/ht_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[14.471s] -- Installing: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/ht_messages_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[14.472s] -- Set runtime path of "/home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/ht_messages_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[14.472s] -- Installing: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/ht_messages_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[14.473s] -- Set runtime path of "/home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/ht_messages_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[14.473s] -- Installing: /home/user/high_tide_ws/install/ht_messages/lib/libht_messages__rosidl_generator_py.so
+[14.476s] -- Set runtime path of "/home/user/high_tide_ws/install/ht_messages/lib/libht_messages__rosidl_generator_py.so" to ""
+[14.477s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/msg/Example.idl
+[14.477s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/msg/Example.msg
+[14.478s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ament_index/resource_index/package_run_dependencies/ht_messages
+[14.479s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ament_index/resource_index/parent_prefix_path/ht_messages
+[14.479s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/environment/ament_prefix_path.sh
+[14.480s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/environment/ament_prefix_path.dsv
+[14.480s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/environment/path.sh
+[14.480s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/environment/path.dsv
+[14.481s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/local_setup.bash
+[14.481s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/local_setup.sh
+[14.481s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/local_setup.zsh
+[14.482s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/local_setup.dsv
+[14.482s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/package.dsv
+[14.483s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ament_index/resource_index/packages/ht_messages
+[14.483s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/export_ht_messages__rosidl_generator_cExport.cmake
+[14.484s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/export_ht_messages__rosidl_generator_cExport-noconfig.cmake
+[14.484s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/export_ht_messages__rosidl_typesupport_fastrtps_cExport.cmake
+[14.485s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/export_ht_messages__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.485s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ht_messages__rosidl_typesupport_introspection_cExport.cmake
+[14.486s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ht_messages__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.486s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ht_messages__rosidl_typesupport_cExport.cmake
+[14.486s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ht_messages__rosidl_typesupport_cExport-noconfig.cmake
+[14.487s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/export_ht_messages__rosidl_generator_cppExport.cmake
+[14.487s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/export_ht_messages__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.488s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/export_ht_messages__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.488s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ht_messages__rosidl_typesupport_introspection_cppExport.cmake
+[14.489s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ht_messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.489s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ht_messages__rosidl_typesupport_cppExport.cmake
+[14.490s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ht_messages__rosidl_typesupport_cppExport-noconfig.cmake
+[14.491s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/export_ht_messages__rosidl_generator_pyExport.cmake
+[14.491s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/export_ht_messages__rosidl_generator_pyExport-noconfig.cmake
+[14.491s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/rosidl_cmake-extras.cmake
+[14.492s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.492s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.492s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ament_cmake_export_libraries-extras.cmake
+[14.493s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ament_cmake_export_targets-extras.cmake
+[14.493s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.493s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.494s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ht_messagesConfig.cmake
+[14.495s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ht_messagesConfig-version.cmake
+[14.496s] -- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/package.xml
+[14.502s] Invoked command in '/home/user/high_tide_ws/build/ht_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/high_tide_ws/install/my_gyro_pkg:/home/user/high_tide_ws/install/ht_core:/home/user/install/my_gyro_pkg:/home/user/install/ht_core:/opt/ros/humble /usr/bin/cmake --install /home/user/high_tide_ws/build/ht_messages

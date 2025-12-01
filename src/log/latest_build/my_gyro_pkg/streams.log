@@ -1,0 +1,40 @@
+[1.161s] Invoking command in '/home/thejas/high_tide_ws/src/my_gyro_pkg': PYTHONPATH=/home/thejas/high_tide_ws/src/build/my_gyro_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thejas/high_tide_ws/src/install/my_gyro_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_gyro_pkg build --build-base /home/thejas/high_tide_ws/src/build/my_gyro_pkg/build install --record /home/thejas/high_tide_ws/src/build/my_gyro_pkg/install.log --single-version-externally-managed install_data
+[1.453s] running egg_info
+[1.453s] creating ../build/my_gyro_pkg/my_gyro_pkg.egg-info
+[1.470s] writing ../build/my_gyro_pkg/my_gyro_pkg.egg-info/PKG-INFO
+[1.470s] writing dependency_links to ../build/my_gyro_pkg/my_gyro_pkg.egg-info/dependency_links.txt
+[1.470s] writing entry points to ../build/my_gyro_pkg/my_gyro_pkg.egg-info/entry_points.txt
+[1.471s] writing requirements to ../build/my_gyro_pkg/my_gyro_pkg.egg-info/requires.txt
+[1.471s] writing top-level names to ../build/my_gyro_pkg/my_gyro_pkg.egg-info/top_level.txt
+[1.471s] writing manifest file '../build/my_gyro_pkg/my_gyro_pkg.egg-info/SOURCES.txt'
+[1.530s] reading manifest file '../build/my_gyro_pkg/my_gyro_pkg.egg-info/SOURCES.txt'
+[1.530s] writing manifest file '../build/my_gyro_pkg/my_gyro_pkg.egg-info/SOURCES.txt'
+[1.530s] running build
+[1.531s] running build_py
+[1.531s] creating /home/thejas/high_tide_ws/src/build/my_gyro_pkg/build
+[1.531s] creating /home/thejas/high_tide_ws/src/build/my_gyro_pkg/build/lib
+[1.531s] creating /home/thejas/high_tide_ws/src/build/my_gyro_pkg/build/lib/my_gyro_pkg
+[1.531s] copying my_gyro_pkg/fog_node.py -> /home/thejas/high_tide_ws/src/build/my_gyro_pkg/build/lib/my_gyro_pkg
+[1.531s] copying my_gyro_pkg/fog.py -> /home/thejas/high_tide_ws/src/build/my_gyro_pkg/build/lib/my_gyro_pkg
+[1.531s] copying my_gyro_pkg/__init__.py -> /home/thejas/high_tide_ws/src/build/my_gyro_pkg/build/lib/my_gyro_pkg
+[1.531s] running install
+[1.532s] running install_lib
+[1.563s] creating /home/thejas/high_tide_ws/src/install/my_gyro_pkg/lib/python3.10/site-packages/my_gyro_pkg
+[1.564s] copying /home/thejas/high_tide_ws/src/build/my_gyro_pkg/build/lib/my_gyro_pkg/fog_node.py -> /home/thejas/high_tide_ws/src/install/my_gyro_pkg/lib/python3.10/site-packages/my_gyro_pkg
+[1.564s] copying /home/thejas/high_tide_ws/src/build/my_gyro_pkg/build/lib/my_gyro_pkg/fog.py -> /home/thejas/high_tide_ws/src/install/my_gyro_pkg/lib/python3.10/site-packages/my_gyro_pkg
+[1.564s] copying /home/thejas/high_tide_ws/src/build/my_gyro_pkg/build/lib/my_gyro_pkg/__init__.py -> /home/thejas/high_tide_ws/src/install/my_gyro_pkg/lib/python3.10/site-packages/my_gyro_pkg
+[1.564s] byte-compiling /home/thejas/high_tide_ws/src/install/my_gyro_pkg/lib/python3.10/site-packages/my_gyro_pkg/fog_node.py to fog_node.cpython-310.pyc
+[1.565s] byte-compiling /home/thejas/high_tide_ws/src/install/my_gyro_pkg/lib/python3.10/site-packages/my_gyro_pkg/fog.py to fog.cpython-310.pyc
+[1.567s] byte-compiling /home/thejas/high_tide_ws/src/install/my_gyro_pkg/lib/python3.10/site-packages/my_gyro_pkg/__init__.py to __init__.cpython-310.pyc
+[1.567s] running install_data
+[1.567s] creating /home/thejas/high_tide_ws/src/install/my_gyro_pkg/share/ament_index
+[1.567s] creating /home/thejas/high_tide_ws/src/install/my_gyro_pkg/share/ament_index/resource_index
+[1.567s] creating /home/thejas/high_tide_ws/src/install/my_gyro_pkg/share/ament_index/resource_index/packages
+[1.567s] copying resource/my_gyro_pkg -> /home/thejas/high_tide_ws/src/install/my_gyro_pkg/share/ament_index/resource_index/packages
+[1.567s] copying package.xml -> /home/thejas/high_tide_ws/src/install/my_gyro_pkg/share/my_gyro_pkg
+[1.567s] running install_egg_info
+[1.582s] Copying ../build/my_gyro_pkg/my_gyro_pkg.egg-info to /home/thejas/high_tide_ws/src/install/my_gyro_pkg/lib/python3.10/site-packages/my_gyro_pkg-0.0.0-py3.10.egg-info
+[1.583s] running install_scripts
+[1.636s] Installing fog_node script to /home/thejas/high_tide_ws/src/install/my_gyro_pkg/lib/my_gyro_pkg
+[1.637s] writing list of installed files to '/home/thejas/high_tide_ws/src/build/my_gyro_pkg/install.log'
+[1.672s] Invoked command in '/home/thejas/high_tide_ws/src/my_gyro_pkg' returned '0': PYTHONPATH=/home/thejas/high_tide_ws/src/build/my_gyro_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thejas/high_tide_ws/src/install/my_gyro_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_gyro_pkg build --build-base /home/thejas/high_tide_ws/src/build/my_gyro_pkg/build install --record /home/thejas/high_tide_ws/src/build/my_gyro_pkg/install.log --single-version-externally-managed install_data

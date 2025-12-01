@@ -1,0 +1,78 @@
+[1.040s] Invoking command in '/home/thejas/high_tide_ws/src/ht_core': PYTHONPATH=/home/thejas/high_tide_ws/src/build/ht_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ht_core build --build-base /home/thejas/high_tide_ws/src/build/ht_core/build install --record /home/thejas/high_tide_ws/src/build/ht_core/install.log --single-version-externally-managed install_data
+[1.354s] running egg_info
+[1.355s] creating ../build/ht_core/ht_core.egg-info
+[1.363s] writing ../build/ht_core/ht_core.egg-info/PKG-INFO
+[1.363s] writing dependency_links to ../build/ht_core/ht_core.egg-info/dependency_links.txt
+[1.363s] writing entry points to ../build/ht_core/ht_core.egg-info/entry_points.txt
+[1.363s] writing requirements to ../build/ht_core/ht_core.egg-info/requires.txt
+[1.363s] writing top-level names to ../build/ht_core/ht_core.egg-info/top_level.txt
+[1.363s] writing manifest file '../build/ht_core/ht_core.egg-info/SOURCES.txt'
+[1.388s] reading manifest file '../build/ht_core/ht_core.egg-info/SOURCES.txt'
+[1.388s] writing manifest file '../build/ht_core/ht_core.egg-info/SOURCES.txt'
+[1.389s] running build
+[1.389s] running build_py
+[1.389s] creating /home/thejas/high_tide_ws/src/build/ht_core/build
+[1.389s] creating /home/thejas/high_tide_ws/src/build/ht_core/build/lib
+[1.389s] creating /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core
+[1.389s] copying ht_core/fwd.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core
+[1.389s] copying ht_core/test_node.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core
+[1.389s] copying ht_core/__init__.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core
+[1.389s] copying ht_core/depth_node.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core
+[1.389s] copying ht_core/mission_node.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core
+[1.389s] copying ht_core/state_machine.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core
+[1.390s] creating /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions
+[1.390s] copying ht_core/missions/bravo.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions
+[1.390s] copying ht_core/missions/charlie2.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions
+[1.390s] copying ht_core/missions/bravo2.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions
+[1.390s] copying ht_core/missions/__init__.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions
+[1.390s] copying ht_core/missions/best_mission.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions
+[1.390s] copying ht_core/missions/delta.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions
+[1.390s] copying ht_core/missions/charlie.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions
+[1.390s] copying ht_core/missions/alpha.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions
+[1.390s] running install
+[1.393s] running install_lib
+[1.401s] creating /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core
+[1.401s] copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/fwd.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core
+[1.402s] copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/test_node.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core
+[1.402s] copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/__init__.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core
+[1.402s] copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/depth_node.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core
+[1.402s] copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/mission_node.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core
+[1.402s] creating /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions
+[1.402s] copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions/bravo.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions
+[1.402s] copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions/charlie2.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions
+[1.402s] copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions/bravo2.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions
+[1.402s] copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions/__init__.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions
+[1.402s] copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions/best_mission.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions
+[1.403s] copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions/delta.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions
+[1.403s] copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions/charlie.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions
+[1.403s] copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions/alpha.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions
+[1.403s] copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/state_machine.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core
+[1.403s] byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/fwd.py to fwd.cpython-310.pyc
+[1.403s] byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/test_node.py to test_node.cpython-310.pyc
+[1.403s] byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/__init__.py to __init__.cpython-310.pyc
+[1.403s] byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/depth_node.py to depth_node.cpython-310.pyc
+[1.403s] byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/mission_node.py to mission_node.cpython-310.pyc
+[1.404s] byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions/bravo.py to bravo.cpython-310.pyc
+[1.404s] byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions/charlie2.py to charlie2.cpython-310.pyc
+[1.404s] byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions/bravo2.py to bravo2.cpython-310.pyc
+[1.404s] byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions/__init__.py to __init__.cpython-310.pyc
+[1.404s] byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions/best_mission.py to best_mission.cpython-310.pyc
+[1.404s] byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions/delta.py to delta.cpython-310.pyc
+[1.404s] byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions/charlie.py to charlie.cpython-310.pyc
+[1.404s] byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions/alpha.py to alpha.cpython-310.pyc
+[1.404s] byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/state_machine.py to state_machine.cpython-310.pyc
+[1.405s] running install_data
+[1.405s] creating /home/thejas/high_tide_ws/src/install/ht_core/share/ament_index
+[1.405s] creating /home/thejas/high_tide_ws/src/install/ht_core/share/ament_index/resource_index
+[1.405s] creating /home/thejas/high_tide_ws/src/install/ht_core/share/ament_index/resource_index/packages
+[1.405s] copying resource/ht_core -> /home/thejas/high_tide_ws/src/install/ht_core/share/ament_index/resource_index/packages
+[1.405s] copying package.xml -> /home/thejas/high_tide_ws/src/install/ht_core/share/ht_core
+[1.405s] creating /home/thejas/high_tide_ws/src/install/ht_core/share/ht_core/launch
+[1.405s] copying launch/mission_node.launch.py -> /home/thejas/high_tide_ws/src/install/ht_core/share/ht_core/launch
+[1.405s] running install_egg_info
+[1.414s] Copying ../build/ht_core/ht_core.egg-info to /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core-0.0.1-py3.10.egg-info
+[1.415s] running install_scripts
+[1.472s] Installing depth_node script to /home/thejas/high_tide_ws/src/install/ht_core/lib/ht_core
+[1.472s] Installing mission_node script to /home/thejas/high_tide_ws/src/install/ht_core/lib/ht_core
+[1.472s] writing list of installed files to '/home/thejas/high_tide_ws/src/build/ht_core/install.log'
+[1.513s] Invoked command in '/home/thejas/high_tide_ws/src/ht_core' returned '0': PYTHONPATH=/home/thejas/high_tide_ws/src/build/ht_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ht_core build --build-base /home/thejas/high_tide_ws/src/build/ht_core/build install --record /home/thejas/high_tide_ws/src/build/ht_core/install.log --single-version-externally-managed install_data

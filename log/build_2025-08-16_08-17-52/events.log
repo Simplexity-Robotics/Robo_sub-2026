@@ -1,0 +1,351 @@
+[0.000000] (-) TimerEvent: {}
+[0.000780] (ht_core) JobQueued: {'identifier': 'ht_core', 'dependencies': OrderedDict()}
+[0.002426] (ht_messages) JobQueued: {'identifier': 'ht_messages', 'dependencies': OrderedDict()}
+[0.002762] (my_gyro_pkg) JobQueued: {'identifier': 'my_gyro_pkg', 'dependencies': OrderedDict()}
+[0.003072] (ht_core) JobStarted: {'identifier': 'ht_core'}
+[0.061236] (ht_messages) JobStarted: {'identifier': 'ht_messages'}
+[0.073184] (-) TimerEvent: {}
+[0.105375] (my_gyro_pkg) JobStarted: {'identifier': 'my_gyro_pkg'}
+[0.173358] (-) TimerEvent: {}
+[0.274110] (-) TimerEvent: {}
+[0.374853] (-) TimerEvent: {}
+[0.475602] (-) TimerEvent: {}
+[0.576347] (-) TimerEvent: {}
+[0.677112] (-) TimerEvent: {}
+[0.779930] (-) TimerEvent: {}
+[0.880702] (-) TimerEvent: {}
+[0.981629] (-) TimerEvent: {}
+[1.082905] (-) TimerEvent: {}
+[1.183672] (-) TimerEvent: {}
+[1.285265] (-) TimerEvent: {}
+[1.386018] (-) TimerEvent: {}
+[1.486803] (-) TimerEvent: {}
+[1.588308] (-) TimerEvent: {}
+[1.689639] (-) TimerEvent: {}
+[1.790900] (-) TimerEvent: {}
+[1.891660] (-) TimerEvent: {}
+[1.992398] (-) TimerEvent: {}
+[2.095870] (-) TimerEvent: {}
+[2.197069] (-) TimerEvent: {}
+[2.299614] (-) TimerEvent: {}
+[2.400747] (-) TimerEvent: {}
+[2.502875] (-) TimerEvent: {}
+[2.603656] (-) TimerEvent: {}
+[2.705517] (-) TimerEvent: {}
+[2.806348] (-) TimerEvent: {}
+[2.907497] (-) TimerEvent: {}
+[2.975237] (ht_messages) JobProgress: {'identifier': 'ht_messages', 'progress': 'cmake'}
+[2.987034] (ht_messages) JobProgress: {'identifier': 'ht_messages', 'progress': 'build'}
+[2.987296] (ht_messages) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/high_tide_ws/build/ht_messages', '--', '-j4', '-l4'], 'cwd': '/home/user/high_tide_ws/build/ht_messages', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('SSH_CLIENT', '192.168.2.120 52377 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/user/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/user/high_tide_ws/install/ht_messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/user/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/.vscode-server'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-a45e4786-afa0-427d-b695-d69f6a6fbfa6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/user/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/user/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/user/high_tide_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '12'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/user/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/bin/remote-cli:/home/user/.local/bin:/opt/ros/humble/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ba406cc928.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/user/high_tide_ws/install/my_gyro_pkg:/home/user/high_tide_ws/install/ht_messages:/home/user/high_tide_ws/install/ht_core:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/user/high_tide_ws/build/ht_messages'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.120 52377 192.168.2.1 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/user/high_tide_ws/install/my_gyro_pkg/lib/python3.10/site-packages:/home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages:/home/user/high_tide_ws/install/ht_core/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/user/high_tide_ws/install/ht_messages:/home/user/high_tide_ws/install/my_gyro_pkg:/home/user/high_tide_ws/install/ht_core:/opt/ros/humble')]), 'shell': False}
+[3.010489] (-) TimerEvent: {}
+[3.111256] (-) TimerEvent: {}
+[3.212353] (-) TimerEvent: {}
+[3.310718] (ht_messages) StdoutLine: {'line': b'[  3%] Built target ht_messages__cpp\n'}
+[3.312467] (-) TimerEvent: {}
+[3.413110] (-) TimerEvent: {}
+[3.494622] (ht_messages) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_ht_messages\n'}
+[3.513286] (-) TimerEvent: {}
+[3.617316] (-) TimerEvent: {}
+[3.669088] (ht_messages) StdoutLine: {'line': b'[ 12%] Built target ht_messages__rosidl_typesupport_fastrtps_cpp\n'}
+[3.717521] (-) TimerEvent: {}
+[3.820622] (-) TimerEvent: {}
+[3.827900] (ht_messages) StdoutLine: {'line': b'[ 22%] Built target ht_messages__rosidl_typesupport_introspection_cpp\n'}
+[3.920793] (-) TimerEvent: {}
+[4.021640] (-) TimerEvent: {}
+[4.123307] (-) TimerEvent: {}
+[4.224432] (-) TimerEvent: {}
+[4.325647] (-) TimerEvent: {}
+[4.426410] (-) TimerEvent: {}
+[4.527348] (-) TimerEvent: {}
+[4.630740] (-) TimerEvent: {}
+[4.732482] (-) TimerEvent: {}
+[4.833773] (-) TimerEvent: {}
+[4.935336] (-) TimerEvent: {}
+[5.037626] (-) TimerEvent: {}
+[5.138823] (-) TimerEvent: {}
+[5.240107] (-) TimerEvent: {}
+[5.341516] (-) TimerEvent: {}
+[5.443349] (-) TimerEvent: {}
+[5.545626] (-) TimerEvent: {}
+[5.647002] (-) TimerEvent: {}
+[5.748342] (-) TimerEvent: {}
+[5.849736] (-) TimerEvent: {}
+[5.951647] (-) TimerEvent: {}
+[6.054007] (-) TimerEvent: {}
+[6.155435] (-) TimerEvent: {}
+[6.156394] (ht_messages) StdoutLine: {'line': b'running egg_info\n'}
+[6.185857] (ht_messages) StdoutLine: {'line': b'writing ht_messages.egg-info/PKG-INFO\n'}
+[6.195838] (ht_messages) StdoutLine: {'line': b'writing dependency_links to ht_messages.egg-info/dependency_links.txt\n'}
+[6.202575] (ht_messages) StdoutLine: {'line': b'writing top-level names to ht_messages.egg-info/top_level.txt\n'}
+[6.256815] (-) TimerEvent: {}
+[6.269783] (ht_messages) StdoutLine: {'line': b"reading manifest file 'ht_messages.egg-info/SOURCES.txt'\n"}
+[6.285654] (ht_messages) StdoutLine: {'line': b"writing manifest file 'ht_messages.egg-info/SOURCES.txt'\n"}
+[6.358486] (-) TimerEvent: {}
+[6.459885] (-) TimerEvent: {}
+[6.561742] (-) TimerEvent: {}
+[6.662791] (-) TimerEvent: {}
+[6.764674] (-) TimerEvent: {}
+[6.865427] (-) TimerEvent: {}
+[6.966257] (-) TimerEvent: {}
+[7.031383] (ht_messages) StdoutLine: {'line': b'[ 22%] Built target ament_cmake_python_build_ht_messages_egg\n'}
+[7.066436] (-) TimerEvent: {}
+[7.167595] (-) TimerEvent: {}
+[7.268383] (-) TimerEvent: {}
+[7.369504] (-) TimerEvent: {}
+[7.374979] (ht_messages) StdoutLine: {'line': b'[ 32%] Built target ht_messages__rosidl_typesupport_cpp\n'}
+[7.469693] (-) TimerEvent: {}
+[7.570477] (-) TimerEvent: {}
+[7.671215] (-) TimerEvent: {}
+[7.698365] (ht_messages) StdoutLine: {'line': b'[ 41%] Built target ht_messages__rosidl_generator_c\n'}
+[7.771387] (-) TimerEvent: {}
+[7.873805] (-) TimerEvent: {}
+[7.974958] (-) TimerEvent: {}
+[8.075717] (-) TimerEvent: {}
+[8.145097] (ht_messages) StdoutLine: {'line': b'[ 51%] Built target ht_messages__rosidl_typesupport_fastrtps_c\n'}
+[8.175901] (-) TimerEvent: {}
+[8.286537] (-) TimerEvent: {}
+[8.390027] (-) TimerEvent: {}
+[8.490337] (ht_messages) StdoutLine: {'line': b'[ 61%] Built target ht_messages__rosidl_typesupport_c\n'}
+[8.490927] (-) TimerEvent: {}
+[8.592417] (-) TimerEvent: {}
+[8.693842] (-) TimerEvent: {}
+[8.755304] (ht_messages) StdoutLine: {'line': b'[ 70%] Built target ht_messages__rosidl_typesupport_introspection_c\n'}
+[8.794021] (-) TimerEvent: {}
+[8.896461] (-) TimerEvent: {}
+[8.997247] (-) TimerEvent: {}
+[9.097985] (-) TimerEvent: {}
+[9.198753] (-) TimerEvent: {}
+[9.233865] (ht_messages) StdoutLine: {'line': b'[ 70%] Built target ht_messages\n'}
+[9.298940] (-) TimerEvent: {}
+[9.400559] (-) TimerEvent: {}
+[9.475725] (ht_messages) StdoutLine: {'line': b'[ 74%] Built target ht_messages__py\n'}
+[9.501519] (-) TimerEvent: {}
+[9.603091] (-) TimerEvent: {}
+[9.704650] (-) TimerEvent: {}
+[9.793586] (ht_messages) StdoutLine: {'line': b'[ 80%] Built target ht_messages__rosidl_generator_py\n'}
+[9.804816] (-) TimerEvent: {}
+[9.908421] (-) TimerEvent: {}
+[9.966708] (ht_messages) StdoutLine: {'line': b'[ 87%] Built target ht_messages__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.008590] (-) TimerEvent: {}
+[10.110739] (-) TimerEvent: {}
+[10.153808] (ht_messages) StdoutLine: {'line': b'[ 93%] Built target ht_messages__rosidl_typesupport_c__pyext\n'}
+[10.210955] (-) TimerEvent: {}
+[10.311763] (-) TimerEvent: {}
+[10.373774] (ht_messages) StdoutLine: {'line': b'[100%] Built target ht_messages__rosidl_typesupport_introspection_c__pyext\n'}
+[10.411933] (-) TimerEvent: {}
+[10.517090] (-) TimerEvent: {}
+[10.601124] (ht_messages) CommandEnded: {'returncode': 0}
+[10.605386] (ht_messages) JobProgress: {'identifier': 'ht_messages', 'progress': 'install'}
+[10.617262] (-) TimerEvent: {}
+[10.719772] (-) TimerEvent: {}
+[10.747752] (ht_messages) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/high_tide_ws/build/ht_messages'], 'cwd': '/home/user/high_tide_ws/build/ht_messages', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('SSH_CLIENT', '192.168.2.120 52377 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/user/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/user/high_tide_ws/install/ht_messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/user/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/.vscode-server'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-a45e4786-afa0-427d-b695-d69f6a6fbfa6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/user/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/user/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/user/high_tide_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '12'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/user/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/bin/remote-cli:/home/user/.local/bin:/opt/ros/humble/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ba406cc928.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/user/high_tide_ws/install/my_gyro_pkg:/home/user/high_tide_ws/install/ht_messages:/home/user/high_tide_ws/install/ht_core:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/user/high_tide_ws/build/ht_messages'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.120 52377 192.168.2.1 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/user/high_tide_ws/install/my_gyro_pkg/lib/python3.10/site-packages:/home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages:/home/user/high_tide_ws/install/ht_core/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/user/high_tide_ws/install/ht_messages:/home/user/high_tide_ws/install/my_gyro_pkg:/home/user/high_tide_ws/install/ht_core:/opt/ros/humble')]), 'shell': False}
+[10.820818] (-) TimerEvent: {}
+[10.837569] (ht_messages) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.848843] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ament_index/resource_index/rosidl_interfaces/ht_messages\n'}
+[10.852708] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages\n'}
+[10.854590] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg\n'}
+[10.858198] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.862371] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail\n'}
+[10.862910] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__functions.h\n'}
+[10.871926] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__struct.h\n'}
+[10.872483] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__functions.c\n'}
+[10.874485] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__type_support.h\n'}
+[10.880203] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/example.h\n'}
+[10.903875] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/environment/library_path.sh\n'}
+[10.908190] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/environment/library_path.dsv\n'}
+[10.914948] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/lib/libht_messages__rosidl_generator_c.so\n'}
+[10.920961] (-) TimerEvent: {}
+[10.922829] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages\n'}
+[10.924350] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg\n'}
+[10.929278] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.930557] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail\n'}
+[10.933545] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__rosidl_typesupport_fastrtps_c.h\n'}
+[10.934967] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/lib/libht_messages__rosidl_typesupport_fastrtps_c.so\n'}
+[10.938181] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages\n'}
+[10.944765] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg\n'}
+[10.946153] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail\n'}
+[10.949811] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__rosidl_typesupport_introspection_c.h\n'}
+[10.954006] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__type_support.c\n'}
+[10.954862] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.956529] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/lib/libht_messages__rosidl_typesupport_introspection_c.so\n'}
+[10.961905] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/lib/libht_messages__rosidl_typesupport_c.so\n'}
+[10.963188] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages\n'}
+[10.968923] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg\n'}
+[10.971862] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[10.972830] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/example.hpp\n'}
+[10.973522] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail\n'}
+[10.974324] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__struct.hpp\n'}
+[10.976917] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__builder.hpp\n'}
+[10.977719] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__traits.hpp\n'}
+[10.978398] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__type_support.hpp\n'}
+[10.980900] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages\n'}
+[10.981729] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg\n'}
+[10.982636] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.983281] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail\n'}
+[10.983971] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.986375] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/dds_fastrtps\n'}
+[10.993923] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/lib/libht_messages__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.995391] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages\n'}
+[11.001061] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg\n'}
+[11.002289] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail\n'}
+[11.003775] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__type_support.cpp\n'}
+[11.005441] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/include/ht_messages/ht_messages/msg/detail/example__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.017231] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/lib/libht_messages__rosidl_typesupport_introspection_cpp.so\n'}
+[11.017746] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/lib/libht_messages__rosidl_typesupport_cpp.so\n'}
+[11.018073] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/environment/pythonpath.sh\n'}
+[11.018327] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/environment/pythonpath.dsv\n'}
+[11.018570] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages-0.0.0-py3.10.egg-info\n'}
+[11.018801] (ht_messages) StdoutLine: {'line': b'-- Installing: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[11.019019] (ht_messages) StdoutLine: {'line': b'-- Installing: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[11.019234] (ht_messages) StdoutLine: {'line': b'-- Installing: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[11.019447] (ht_messages) StdoutLine: {'line': b'-- Installing: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[11.023283] (-) TimerEvent: {}
+[11.036174] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages\n'}
+[11.038734] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/msg\n'}
+[11.039122] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/msg/__init__.py\n'}
+[11.039469] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/msg/_example.py\n'}
+[11.039717] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/msg/_example_s.c\n'}
+[11.039959] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/libht_messages__rosidl_generator_py.so\n'}
+[11.040190] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/ht_messages_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[11.040417] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/_ht_messages_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.040635] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/_ht_messages_s.ep.rosidl_typesupport_c.c\n'}
+[11.040850] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/ht_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[11.041062] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/__init__.py\n'}
+[11.043228] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/_ht_messages_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.043531] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/ht_messages_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[11.123848] (-) TimerEvent: {}
+[11.226358] (-) TimerEvent: {}
+[11.327252] (-) TimerEvent: {}
+[11.390948] (ht_core) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ht_core', 'build', '--build-base', '/home/user/high_tide_ws/build/ht_core/build', 'install', '--record', '/home/user/high_tide_ws/build/ht_core/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/user/high_tide_ws/src/ht_core', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'user', 'SSH_CLIENT': '192.168.2.120 52377 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/user/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/user/high_tide_ws/install/ht_messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/user/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/user', 'OLDPWD': '/home/user/.vscode-server', 'TERM_PROGRAM_VERSION': '1.103.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a45e4786-afa0-427d-b695-d69f6a6fbfa6.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/user/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/user/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/user/high_tide_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'user', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '12', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/user/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/bin/remote-cli:/home/user/.local/bin:/opt/ros/humble/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ba406cc928.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/user/high_tide_ws/install/my_gyro_pkg:/home/user/high_tide_ws/install/ht_messages:/home/user/high_tide_ws/install/ht_core:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/user/high_tide_ws/build/ht_core', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.2.120 52377 192.168.2.1 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/user/high_tide_ws/build/ht_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/high_tide_ws/install/ht_core/lib/python3.10/site-packages:/home/user/high_tide_ws/install/my_gyro_pkg/lib/python3.10/site-packages:/home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages:/home/user/high_tide_ws/install/ht_core/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/user/high_tide_ws/install/ht_messages'}, 'shell': False}
+[11.427424] (-) TimerEvent: {}
+[11.528208] (-) TimerEvent: {}
+[11.629003] (-) TimerEvent: {}
+[11.729786] (-) TimerEvent: {}
+[11.733692] (ht_messages) StdoutLine: {'line': b"Listing '/home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages'...\n"}
+[11.734339] (ht_messages) StdoutLine: {'line': b"Listing '/home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/msg'...\n"}
+[11.811359] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/ht_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[11.812016] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/ht_messages_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[11.812304] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages/ht_messages/ht_messages_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[11.812595] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/lib/libht_messages__rosidl_generator_py.so\n'}
+[11.833247] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/msg/Example.idl\n'}
+[11.833857] (-) TimerEvent: {}
+[11.834229] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/msg/Example.msg\n'}
+[11.834566] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ament_index/resource_index/package_run_dependencies/ht_messages\n'}
+[11.834842] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ament_index/resource_index/parent_prefix_path/ht_messages\n'}
+[11.835078] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/environment/ament_prefix_path.sh\n'}
+[11.835311] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/environment/ament_prefix_path.dsv\n'}
+[11.835533] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/environment/path.sh\n'}
+[11.835742] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/environment/path.dsv\n'}
+[11.835972] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/local_setup.bash\n'}
+[11.836181] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/local_setup.sh\n'}
+[11.836386] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/local_setup.zsh\n'}
+[11.836587] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/local_setup.dsv\n'}
+[11.836829] (ht_messages) StdoutLine: {'line': b'-- Installing: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/package.dsv\n'}
+[11.837034] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ament_index/resource_index/packages/ht_messages\n'}
+[11.856273] (my_gyro_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_gyro_pkg', 'build', '--build-base', '/home/user/high_tide_ws/build/my_gyro_pkg/build', 'install', '--record', '/home/user/high_tide_ws/build/my_gyro_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/user/high_tide_ws/src/my_gyro_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'user', 'SSH_CLIENT': '192.168.2.120 52377 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/user/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/user/high_tide_ws/install/ht_messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/user/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/user', 'OLDPWD': '/home/user/.vscode-server', 'TERM_PROGRAM_VERSION': '1.103.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a45e4786-afa0-427d-b695-d69f6a6fbfa6.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/user/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/user/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/user/high_tide_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'user', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '12', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/user/.vscode-server/cli/servers/Stable-e3550cfac4b63ca4eafca7b601f0d2885817fd1f/server/bin/remote-cli:/home/user/.local/bin:/opt/ros/humble/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ba406cc928.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/user/high_tide_ws/install/my_gyro_pkg:/home/user/high_tide_ws/install/ht_messages:/home/user/high_tide_ws/install/ht_core:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/user/high_tide_ws/build/my_gyro_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.2.120 52377 192.168.2.1 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/user/high_tide_ws/build/my_gyro_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/high_tide_ws/install/my_gyro_pkg/lib/python3.10/site-packages:/home/user/high_tide_ws/install/my_gyro_pkg/lib/python3.10/site-packages:/home/user/high_tide_ws/install/ht_messages/local/lib/python3.10/dist-packages:/home/user/high_tide_ws/install/ht_core/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/user/high_tide_ws/install/ht_messages'}, 'shell': False}
+[11.865258] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/export_ht_messages__rosidl_generator_cExport.cmake\n'}
+[11.865757] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/export_ht_messages__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.866333] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/export_ht_messages__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.866654] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/export_ht_messages__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.866898] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ht_messages__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.867130] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ht_messages__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.867357] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ht_messages__rosidl_typesupport_cExport.cmake\n'}
+[11.867579] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ht_messages__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.867793] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/export_ht_messages__rosidl_generator_cppExport.cmake\n'}
+[11.869890] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/export_ht_messages__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.870369] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/export_ht_messages__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.897865] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ht_messages__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.898496] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ht_messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.898833] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ht_messages__rosidl_typesupport_cppExport.cmake\n'}
+[11.899079] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ht_messages__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.899310] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/export_ht_messages__rosidl_generator_pyExport.cmake\n'}
+[11.899576] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/export_ht_messages__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.899798] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/rosidl_cmake-extras.cmake\n'}
+[11.900007] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.900217] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.900428] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.900634] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.900838] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.901038] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.910479] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ht_messagesConfig.cmake\n'}
+[11.911963] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/cmake/ht_messagesConfig-version.cmake\n'}
+[11.925777] (ht_messages) StdoutLine: {'line': b'-- Up-to-date: /home/user/high_tide_ws/install/ht_messages/share/ht_messages/package.xml\n'}
+[11.944014] (-) TimerEvent: {}
+[11.945242] (ht_messages) CommandEnded: {'returncode': 0}
+[12.044289] (-) TimerEvent: {}
+[12.146081] (-) TimerEvent: {}
+[12.247903] (-) TimerEvent: {}
+[12.287831] (ht_messages) JobEnded: {'identifier': 'ht_messages', 'rc': 0}
+[12.348087] (-) TimerEvent: {}
+[12.449877] (-) TimerEvent: {}
+[12.557803] (-) TimerEvent: {}
+[12.659597] (-) TimerEvent: {}
+[12.763516] (-) TimerEvent: {}
+[12.865738] (-) TimerEvent: {}
+[12.976974] (-) TimerEvent: {}
+[13.082743] (-) TimerEvent: {}
+[13.189310] (-) TimerEvent: {}
+[13.291998] (-) TimerEvent: {}
+[13.397602] (-) TimerEvent: {}
+[13.499417] (-) TimerEvent: {}
+[13.606844] (-) TimerEvent: {}
+[13.708827] (-) TimerEvent: {}
+[13.810748] (-) TimerEvent: {}
+[13.913700] (-) TimerEvent: {}
+[13.952141] (ht_core) StdoutLine: {'line': b'running egg_info\n'}
+[13.971184] (ht_core) StdoutLine: {'line': b'writing ../../build/ht_core/ht_core.egg-info/PKG-INFO\n'}
+[13.981770] (ht_core) StdoutLine: {'line': b'writing dependency_links to ../../build/ht_core/ht_core.egg-info/dependency_links.txt\n'}
+[13.982341] (ht_core) StdoutLine: {'line': b'writing entry points to ../../build/ht_core/ht_core.egg-info/entry_points.txt\n'}
+[13.982611] (ht_core) StdoutLine: {'line': b'writing requirements to ../../build/ht_core/ht_core.egg-info/requires.txt\n'}
+[13.982854] (ht_core) StdoutLine: {'line': b'writing top-level names to ../../build/ht_core/ht_core.egg-info/top_level.txt\n'}
+[14.011904] (ht_core) StdoutLine: {'line': b"reading manifest file '../../build/ht_core/ht_core.egg-info/SOURCES.txt'\n"}
+[14.014239] (-) TimerEvent: {}
+[14.020166] (ht_core) StdoutLine: {'line': b"writing manifest file '../../build/ht_core/ht_core.egg-info/SOURCES.txt'\n"}
+[14.022245] (ht_core) StdoutLine: {'line': b'running build\n'}
+[14.022528] (ht_core) StdoutLine: {'line': b'running build_py\n'}
+[14.025946] (ht_core) StdoutLine: {'line': b'running install\n'}
+[14.030619] (ht_core) StdoutLine: {'line': b'running install_lib\n'}
+[14.065018] (ht_core) StdoutLine: {'line': b'running install_data\n'}
+[14.071857] (ht_core) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.080062] (my_gyro_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[14.091186] (ht_core) StdoutLine: {'line': b"removing '/home/user/high_tide_ws/install/ht_core/lib/python3.10/site-packages/ht_core-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[14.094611] (my_gyro_pkg) StdoutLine: {'line': b'writing ../../build/my_gyro_pkg/my_gyro_pkg.egg-info/PKG-INFO\n'}
+[14.096380] (my_gyro_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_gyro_pkg/my_gyro_pkg.egg-info/dependency_links.txt\n'}
+[14.098386] (my_gyro_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_gyro_pkg/my_gyro_pkg.egg-info/entry_points.txt\n'}
+[14.111189] (my_gyro_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_gyro_pkg/my_gyro_pkg.egg-info/requires.txt\n'}
+[14.111783] (my_gyro_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_gyro_pkg/my_gyro_pkg.egg-info/top_level.txt\n'}
+[14.112066] (ht_core) StdoutLine: {'line': b'Copying ../../build/ht_core/ht_core.egg-info to /home/user/high_tide_ws/install/ht_core/lib/python3.10/site-packages/ht_core-0.0.1-py3.10.egg-info\n'}
+[14.114356] (-) TimerEvent: {}
+[14.123426] (ht_core) StdoutLine: {'line': b'running install_scripts\n'}
+[14.136685] (my_gyro_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_gyro_pkg/my_gyro_pkg.egg-info/SOURCES.txt'\n"}
+[14.144507] (my_gyro_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_gyro_pkg/my_gyro_pkg.egg-info/SOURCES.txt'\n"}
+[14.155889] (my_gyro_pkg) StdoutLine: {'line': b'running build\n'}
+[14.156497] (my_gyro_pkg) StdoutLine: {'line': b'running build_py\n'}
+[14.156771] (my_gyro_pkg) StdoutLine: {'line': b'copying my_gyro_pkg/fog_node.py -> /home/user/high_tide_ws/build/my_gyro_pkg/build/lib/my_gyro_pkg\n'}
+[14.157017] (my_gyro_pkg) StdoutLine: {'line': b'running install\n'}
+[14.157310] (my_gyro_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[14.171744] (my_gyro_pkg) StdoutLine: {'line': b'copying /home/user/high_tide_ws/build/my_gyro_pkg/build/lib/my_gyro_pkg/fog_node.py -> /home/user/high_tide_ws/install/my_gyro_pkg/lib/python3.10/site-packages/my_gyro_pkg\n'}
+[14.180476] (my_gyro_pkg) StdoutLine: {'line': b'byte-compiling /home/user/high_tide_ws/install/my_gyro_pkg/lib/python3.10/site-packages/my_gyro_pkg/fog_node.py to fog_node.cpython-310.pyc\n'}
+[14.197985] (my_gyro_pkg) StdoutLine: {'line': b'running install_data\n'}
+[14.200721] (my_gyro_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.214534] (-) TimerEvent: {}
+[14.222975] (my_gyro_pkg) StdoutLine: {'line': b"removing '/home/user/high_tide_ws/install/my_gyro_pkg/lib/python3.10/site-packages/my_gyro_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[14.240927] (my_gyro_pkg) StdoutLine: {'line': b'Copying ../../build/my_gyro_pkg/my_gyro_pkg.egg-info to /home/user/high_tide_ws/install/my_gyro_pkg/lib/python3.10/site-packages/my_gyro_pkg-0.0.0-py3.10.egg-info\n'}
+[14.265707] (my_gyro_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[14.314710] (-) TimerEvent: {}
+[14.384121] (my_gyro_pkg) StdoutLine: {'line': b'Installing fog_node script to /home/user/high_tide_ws/install/my_gyro_pkg/lib/my_gyro_pkg\n'}
+[14.388323] (my_gyro_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/user/high_tide_ws/build/my_gyro_pkg/install.log'\n"}
+[14.414996] (-) TimerEvent: {}
+[14.464289] (ht_core) StdoutLine: {'line': b'Installing depth_node script to /home/user/high_tide_ws/install/ht_core/lib/ht_core\n'}
+[14.492205] (ht_core) StdoutLine: {'line': b'Installing mission_node script to /home/user/high_tide_ws/install/ht_core/lib/ht_core\n'}
+[14.502116] (ht_core) StdoutLine: {'line': b"writing list of installed files to '/home/user/high_tide_ws/build/ht_core/install.log'\n"}
+[14.515177] (-) TimerEvent: {}
+[14.617000] (-) TimerEvent: {}
+[14.718915] (-) TimerEvent: {}
+[14.813800] (my_gyro_pkg) CommandEnded: {'returncode': 0}
+[14.821399] (-) TimerEvent: {}
+[14.875141] (my_gyro_pkg) JobEnded: {'identifier': 'my_gyro_pkg', 'rc': 0}
+[14.889516] (ht_core) CommandEnded: {'returncode': 0}
+[14.924224] (-) TimerEvent: {}
+[14.963461] (ht_core) JobEnded: {'identifier': 'ht_core', 'rc': 0}
+[14.967898] (-) EventReactorShutdown: {}

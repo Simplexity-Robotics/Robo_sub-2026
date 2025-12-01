@@ -1,0 +1,76 @@
+running egg_info
+creating ../build/ht_core/ht_core.egg-info
+writing ../build/ht_core/ht_core.egg-info/PKG-INFO
+writing dependency_links to ../build/ht_core/ht_core.egg-info/dependency_links.txt
+writing entry points to ../build/ht_core/ht_core.egg-info/entry_points.txt
+writing requirements to ../build/ht_core/ht_core.egg-info/requires.txt
+writing top-level names to ../build/ht_core/ht_core.egg-info/top_level.txt
+writing manifest file '../build/ht_core/ht_core.egg-info/SOURCES.txt'
+reading manifest file '../build/ht_core/ht_core.egg-info/SOURCES.txt'
+writing manifest file '../build/ht_core/ht_core.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/thejas/high_tide_ws/src/build/ht_core/build
+creating /home/thejas/high_tide_ws/src/build/ht_core/build/lib
+creating /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core
+copying ht_core/fwd.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core
+copying ht_core/test_node.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core
+copying ht_core/__init__.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core
+copying ht_core/depth_node.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core
+copying ht_core/mission_node.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core
+copying ht_core/state_machine.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core
+creating /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions
+copying ht_core/missions/bravo.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions
+copying ht_core/missions/charlie2.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions
+copying ht_core/missions/bravo2.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions
+copying ht_core/missions/__init__.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions
+copying ht_core/missions/best_mission.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions
+copying ht_core/missions/delta.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions
+copying ht_core/missions/charlie.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions
+copying ht_core/missions/alpha.py -> /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions
+running install
+running install_lib
+creating /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core
+copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/fwd.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core
+copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/test_node.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core
+copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/__init__.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core
+copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/depth_node.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core
+copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/mission_node.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core
+creating /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions
+copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions/bravo.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions
+copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions/charlie2.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions
+copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions/bravo2.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions
+copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions/__init__.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions
+copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions/best_mission.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions
+copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions/delta.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions
+copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions/charlie.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions
+copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/missions/alpha.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions
+copying /home/thejas/high_tide_ws/src/build/ht_core/build/lib/ht_core/state_machine.py -> /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core
+byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/fwd.py to fwd.cpython-310.pyc
+byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/test_node.py to test_node.cpython-310.pyc
+byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/depth_node.py to depth_node.cpython-310.pyc
+byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/mission_node.py to mission_node.cpython-310.pyc
+byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions/bravo.py to bravo.cpython-310.pyc
+byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions/charlie2.py to charlie2.cpython-310.pyc
+byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions/bravo2.py to bravo2.cpython-310.pyc
+byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions/best_mission.py to best_mission.cpython-310.pyc
+byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions/delta.py to delta.cpython-310.pyc
+byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions/charlie.py to charlie.cpython-310.pyc
+byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/missions/alpha.py to alpha.cpython-310.pyc
+byte-compiling /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core/state_machine.py to state_machine.cpython-310.pyc
+running install_data
+creating /home/thejas/high_tide_ws/src/install/ht_core/share/ament_index
+creating /home/thejas/high_tide_ws/src/install/ht_core/share/ament_index/resource_index
+creating /home/thejas/high_tide_ws/src/install/ht_core/share/ament_index/resource_index/packages
+copying resource/ht_core -> /home/thejas/high_tide_ws/src/install/ht_core/share/ament_index/resource_index/packages
+copying package.xml -> /home/thejas/high_tide_ws/src/install/ht_core/share/ht_core
+creating /home/thejas/high_tide_ws/src/install/ht_core/share/ht_core/launch
+copying launch/mission_node.launch.py -> /home/thejas/high_tide_ws/src/install/ht_core/share/ht_core/launch
+running install_egg_info
+Copying ../build/ht_core/ht_core.egg-info to /home/thejas/high_tide_ws/src/install/ht_core/lib/python3.10/site-packages/ht_core-0.0.1-py3.10.egg-info
+running install_scripts
+Installing depth_node script to /home/thejas/high_tide_ws/src/install/ht_core/lib/ht_core
+Installing mission_node script to /home/thejas/high_tide_ws/src/install/ht_core/lib/ht_core
+writing list of installed files to '/home/thejas/high_tide_ws/src/build/ht_core/install.log'

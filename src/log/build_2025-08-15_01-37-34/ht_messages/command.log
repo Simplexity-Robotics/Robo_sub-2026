@@ -1,0 +1,6 @@
+Invoking command in '/home/thejas/high_tide_ws/src/build/ht_messages': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thejas/high_tide_ws/src/ht_messages -DCMAKE_INSTALL_PREFIX=/home/thejas/high_tide_ws/src/install/ht_messages
+Invoked command in '/home/thejas/high_tide_ws/src/build/ht_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thejas/high_tide_ws/src/ht_messages -DCMAKE_INSTALL_PREFIX=/home/thejas/high_tide_ws/src/install/ht_messages
+Invoking command in '/home/thejas/high_tide_ws/src/build/ht_messages': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thejas/high_tide_ws/src/build/ht_messages -- -j12 -l12
+Invoked command in '/home/thejas/high_tide_ws/src/build/ht_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thejas/high_tide_ws/src/build/ht_messages -- -j12 -l12
+Invoking command in '/home/thejas/high_tide_ws/src/build/ht_messages': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thejas/high_tide_ws/src/build/ht_messages
+Invoked command in '/home/thejas/high_tide_ws/src/build/ht_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thejas/high_tide_ws/src/build/ht_messages

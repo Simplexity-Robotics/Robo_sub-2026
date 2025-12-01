@@ -1,0 +1,24 @@
+[2.976s] Invoking command in '/home/user/high_tide_ws/src/my_gyro_pkg': PYTHONPATH=/home/user/high_tide_ws/build/my_gyro_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/high_tide_ws/install/my_gyro_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_gyro_pkg build --build-base /home/user/high_tide_ws/build/my_gyro_pkg/build install --record /home/user/high_tide_ws/build/my_gyro_pkg/install.log --single-version-externally-managed install_data
+[3.729s] running egg_info
+[3.733s] writing ../../build/my_gyro_pkg/my_gyro_pkg.egg-info/PKG-INFO
+[3.735s] writing dependency_links to ../../build/my_gyro_pkg/my_gyro_pkg.egg-info/dependency_links.txt
+[3.736s] writing entry points to ../../build/my_gyro_pkg/my_gyro_pkg.egg-info/entry_points.txt
+[3.736s] writing requirements to ../../build/my_gyro_pkg/my_gyro_pkg.egg-info/requires.txt
+[3.736s] writing top-level names to ../../build/my_gyro_pkg/my_gyro_pkg.egg-info/top_level.txt
+[3.739s] reading manifest file '../../build/my_gyro_pkg/my_gyro_pkg.egg-info/SOURCES.txt'
+[3.741s] writing manifest file '../../build/my_gyro_pkg/my_gyro_pkg.egg-info/SOURCES.txt'
+[3.743s] running build
+[3.743s] running build_py
+[3.743s] copying my_gyro_pkg/fog_node.py -> /home/user/high_tide_ws/build/my_gyro_pkg/build/lib/my_gyro_pkg
+[3.744s] running install
+[3.744s] running install_lib
+[3.747s] copying /home/user/high_tide_ws/build/my_gyro_pkg/build/lib/my_gyro_pkg/fog_node.py -> /home/user/high_tide_ws/install/my_gyro_pkg/lib/python3.10/site-packages/my_gyro_pkg
+[3.749s] byte-compiling /home/user/high_tide_ws/install/my_gyro_pkg/lib/python3.10/site-packages/my_gyro_pkg/fog_node.py to fog_node.cpython-310.pyc
+[3.751s] running install_data
+[3.752s] running install_egg_info
+[3.757s] removing '/home/user/high_tide_ws/install/my_gyro_pkg/lib/python3.10/site-packages/my_gyro_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[3.758s] Copying ../../build/my_gyro_pkg/my_gyro_pkg.egg-info to /home/user/high_tide_ws/install/my_gyro_pkg/lib/python3.10/site-packages/my_gyro_pkg-0.0.0-py3.10.egg-info
+[3.762s] running install_scripts
+[3.826s] Installing fog_node script to /home/user/high_tide_ws/install/my_gyro_pkg/lib/my_gyro_pkg
+[3.828s] writing list of installed files to '/home/user/high_tide_ws/build/my_gyro_pkg/install.log'
+[3.924s] Invoked command in '/home/user/high_tide_ws/src/my_gyro_pkg' returned '0': PYTHONPATH=/home/user/high_tide_ws/build/my_gyro_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/high_tide_ws/install/my_gyro_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_gyro_pkg build --build-base /home/user/high_tide_ws/build/my_gyro_pkg/build install --record /home/user/high_tide_ws/build/my_gyro_pkg/install.log --single-version-externally-managed install_data

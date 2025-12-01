@@ -1,0 +1,25 @@
+[5.740s] Invoking command in '/home/user/high_tide_ws/src/ht_core': PYTHONPATH=/home/user/high_tide_ws/build/ht_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/high_tide_ws/install/ht_core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ht_core build --build-base /home/user/high_tide_ws/build/ht_core/build install --record /home/user/high_tide_ws/build/ht_core/install.log --single-version-externally-managed install_data
+[6.691s] running egg_info
+[6.692s] writing ../../build/ht_core/ht_core.egg-info/PKG-INFO
+[6.693s] writing dependency_links to ../../build/ht_core/ht_core.egg-info/dependency_links.txt
+[6.694s] writing entry points to ../../build/ht_core/ht_core.egg-info/entry_points.txt
+[6.696s] writing requirements to ../../build/ht_core/ht_core.egg-info/requires.txt
+[6.696s] writing top-level names to ../../build/ht_core/ht_core.egg-info/top_level.txt
+[6.702s] reading manifest file '../../build/ht_core/ht_core.egg-info/SOURCES.txt'
+[6.704s] writing manifest file '../../build/ht_core/ht_core.egg-info/SOURCES.txt'
+[6.704s] running build
+[6.704s] running build_py
+[6.705s] copying ht_core/depth_node.py -> /home/user/high_tide_ws/build/ht_core/build/lib/ht_core
+[6.708s] running install
+[6.709s] running install_lib
+[6.711s] copying /home/user/high_tide_ws/build/ht_core/build/lib/ht_core/depth_node.py -> /home/user/high_tide_ws/install/ht_core/lib/python3.10/site-packages/ht_core
+[6.714s] byte-compiling /home/user/high_tide_ws/install/ht_core/lib/python3.10/site-packages/ht_core/depth_node.py to depth_node.cpython-310.pyc
+[6.718s] running install_data
+[6.718s] running install_egg_info
+[6.724s] removing '/home/user/high_tide_ws/install/ht_core/lib/python3.10/site-packages/ht_core-0.0.1-py3.10.egg-info' (and everything under it)
+[6.725s] Copying ../../build/ht_core/ht_core.egg-info to /home/user/high_tide_ws/install/ht_core/lib/python3.10/site-packages/ht_core-0.0.1-py3.10.egg-info
+[6.728s] running install_scripts
+[6.802s] Installing depth_node script to /home/user/high_tide_ws/install/ht_core/lib/ht_core
+[6.803s] Installing mission_node script to /home/user/high_tide_ws/install/ht_core/lib/ht_core
+[6.805s] writing list of installed files to '/home/user/high_tide_ws/build/ht_core/install.log'
+[6.903s] Invoked command in '/home/user/high_tide_ws/src/ht_core' returned '0': PYTHONPATH=/home/user/high_tide_ws/build/ht_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/high_tide_ws/install/ht_core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ht_core build --build-base /home/user/high_tide_ws/build/ht_core/build install --record /home/user/high_tide_ws/build/ht_core/install.log --single-version-externally-managed install_data

@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/ht_core/ht_core.egg-info/PKG-INFO
+writing dependency_links to ../../build/ht_core/ht_core.egg-info/dependency_links.txt
+writing entry points to ../../build/ht_core/ht_core.egg-info/entry_points.txt
+writing requirements to ../../build/ht_core/ht_core.egg-info/requires.txt
+writing top-level names to ../../build/ht_core/ht_core.egg-info/top_level.txt
+reading manifest file '../../build/ht_core/ht_core.egg-info/SOURCES.txt'
+writing manifest file '../../build/ht_core/ht_core.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ht_core/depth_node.py -> /home/user/high_tide_ws/build/ht_core/build/lib/ht_core
+running install
+running install_lib
+copying /home/user/high_tide_ws/build/ht_core/build/lib/ht_core/depth_node.py -> /home/user/high_tide_ws/install/ht_core/lib/python3.10/site-packages/ht_core
+byte-compiling /home/user/high_tide_ws/install/ht_core/lib/python3.10/site-packages/ht_core/depth_node.py to depth_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/user/high_tide_ws/install/ht_core/lib/python3.10/site-packages/ht_core-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/ht_core/ht_core.egg-info to /home/user/high_tide_ws/install/ht_core/lib/python3.10/site-packages/ht_core-0.0.1-py3.10.egg-info
+running install_scripts
+Installing depth_node script to /home/user/high_tide_ws/install/ht_core/lib/ht_core
+Installing mission_node script to /home/user/high_tide_ws/install/ht_core/lib/ht_core
+writing list of installed files to '/home/user/high_tide_ws/build/ht_core/install.log'

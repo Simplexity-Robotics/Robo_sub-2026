@@ -1,0 +1,5 @@
+  File "/home/user/high_tide_ws/install/ht_core/lib/python3.10/site-packages/ht_core/state_machine.py", line 230
+    self.node.offset_pub.publish(True))
+                                      ^
+SyntaxError: unmatched ')'
+

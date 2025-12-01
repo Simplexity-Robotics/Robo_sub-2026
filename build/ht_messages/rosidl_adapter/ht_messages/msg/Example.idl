@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ht_messages/msg/Example.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module ht_messages {
+  module msg {
+    struct Example {
+      std_msgs::msg::Header header;
+
+      uint8 foo;
+
+      sequence<float> bar;
+    };
+  };
+};
