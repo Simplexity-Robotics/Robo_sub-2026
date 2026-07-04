@@ -25,5 +25,6 @@ setup(
         'pool_test_thrusters = hightide_tests.pool_tests.pool_test_thrusters:main',
         'pool_test_sensors = hightide_tests.pool_tests.pool_test_sensors:main',
         'pool_test_navigation = hightide_tests.pool_tests.pool_test_navigation:main',
+        'sys_id_exciter = hightide_tests.pool_tests.pidexcitation:main',
     ]},
 )
